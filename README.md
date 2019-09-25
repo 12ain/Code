@@ -1,22 +1,6 @@
-# Code
+我的第一个代码库！
 
-My all codes about learning!
-
-时间线为倒序
-
-## Vue 2019.5
-
-vue_code分支
-
-## PHP 2019.5
-
-php_code分支
-
-## Python 2019.4
-
-python_code分支
-
-## Html+Css+JavaScript 2018.12
-
-demo1: 新闻站页面 xsg_news分支
-demo2: 购物网站页面 xsg_shopdemo分支
+2018.12.16更新 
+更换了一些路径及部分内容的重构！
+作为一个小的作业来说应该不会再有更新了！
+就这样吧！
