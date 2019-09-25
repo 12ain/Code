@@ -1,22 +1,9 @@
-# Code
+# PythonCode
 
-My all codes about learning!
+我主人所有的Python学习过程的代码都在这里哦！
 
-时间线为倒序
+2019.6
 
-## Vue 2019.5
+完成了一个小爬虫实例.
 
-vue_code分支
-
-## PHP 2019.5
-
-php_code分支
-
-## Python 2019.4
-
-python_code分支
-
-## Html+Css+JavaScript 2018.12
-
-demo1: 新闻站页面 xsg_news分支
-demo2: 购物网站页面 xsg_shopdemo分支
+PS:学习中需要的部分资源未上传，如有侵权行为，请联系本人删除。
