@@ -1,0 +1,44 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.top, .left, .main, .bottom {
+    border: solid 1px;
+    text-align: center;
+    position: absolute;
+}
+
+.top, .bottom {
+    height: 10%;
+    width: 100%;
+}
+
+.left, .main {
+    top: 10%;
+    height: 80%;
+}
+
+.top {
+    top: 0;
+}
+
+.left {
+    left: 0;
+    width: 20%;
+}
+
+.main {
+    right: 0;
+    width: 80%;
+}
+
+.bottom {
+    top: 90%;
+}
