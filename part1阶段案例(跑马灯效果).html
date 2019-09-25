@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>跑马灯效果</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script type="text/javascript" src="src/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+    	<input type="button" value="启动" v-on:click="start">
+    	<input type="button" value="停止" @click="stop">
+    	<h3>{{ msg }}</h3>
+    </div>
+    <script type="text/javascript">
+    	Vue.config.devtools = true;
+    	var vm = new Vue({
+    		el:"#app",
+    		data:{
+    			msg:'一二三四五六七八!',
+    			intervalId: null
+    			
+    		},
+    		methods:{
+    			start:function(){
+    				if (this.intervalId != null) return;
+    				this.intervalId = setInterval(()=>{
+
+    					var start = this.msg.substring(0,1)
+    					var end = this.msg.substring(1)
+    					this.msg = end + start
+
+    			}, 200)
+    				
+    			},
+    			stop(){
+    				clearInterval(this.intervalId)
+    				this.intervalId = null
+    			}
+    		}
+    	});
+
+    </script>
+</body>
+</html>
