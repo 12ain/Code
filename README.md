@@ -1,29 +1,7 @@
-# Code
+# Node 2019.9
 
-My all codes about learning!
+文件操作:使用 require 方法加载 fs 核心模块
 
-时间线为倒序
+__filename文件路径
 
-## Node 2019.9
-
-node_code分支
-
-## Vue 2019.5
-
-vue_code分支
-
-## PHP 2019.5
-
-php_code分支
-
-demo: market分支
-
-## Python 2019.4
-
-python_code分支
-
-## Html+Css+JavaScript 2018.12
-
-demo1: 新闻站页面 xsg_news分支
-
-demo2: 购物网站页面 xsg_shopdemo分支
+__dirname文件夹路径
