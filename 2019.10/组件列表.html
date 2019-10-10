@@ -18,7 +18,7 @@
                 <h3 class="panel-title">列表</h3>
             </div>
             
-            <div class="input-group">
+            <div class="input-group panel-body">
                 <input type="text" class="form-control" placeholder="在此输入项目名称" v-model="newItem">
                 <span class="input-group-btn">
                     <button type="button" class="btn btn-primary" @click="add">添加</button>
@@ -67,13 +67,15 @@
             },
             methods: {
                 add(){
+                    if (!this.newItem == ''){                    
                     this.list.push(
                         {
                             // id: this.list.length ++ ,
                             title: this.newItem
                         }                       
                     )
-                    this.new = ''
+                    this.newItem = ''
+                    }
                 }
             },
         })
