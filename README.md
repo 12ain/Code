@@ -5,3 +5,5 @@
 __filename文件路径
 
 __dirname文件夹路径
+
+- 2019.9 增加登录注册实现demo

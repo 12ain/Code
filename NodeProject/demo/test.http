@@ -1,0 +1,26 @@
+@url = http://localhost:3000/api
+# @url = http://demo.abplan.top/api
+@json = Content-Type: application/json
+
+### 注册接口测试
+post {{url}}/register
+{{json}}
+
+{
+    "username":"user1",
+    "password":"123456"
+}
+
+### 登录接口测试
+post {{url}}/login
+{{json}}
+
+{
+    "username":"user1",  
+    "password":"123456"
+}
+
+### 获取个人信息接口测试
+get {{url}}/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkYmQ2NzA2OWY1YzE2MDM3OGM2NDBkNSIsImlhdCI6MTU3MjcwMTk0Nn0.w5DcEFzu1MysZcfZUMPfUTCjjhlN2ea4B2pDtoVaFYY
+
